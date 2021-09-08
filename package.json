@@ -1,0 +1,35 @@
+{
+  "name": "vue-vite-rails-intertia",
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "ruby bin/vite dev",
+    "prod": "npm run production",
+    "production": "ruby bin/vite build"
+  },
+  "dependencies": {
+    "@inertiajs/inertia": "^0.10.1",
+    "@inertiajs/inertia-vue3": "^0.5.2",
+    "@inertiajs/progress": "^0.2.6",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.4.2",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "@vitejs/plugin-vue": "^1.6.2",
+    "vue": "^3.2.10",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.10",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.14",
+    "vite": "^2.5.0",
+    "vite-plugin-ruby": "^3.0.0",
+    "webpack-dev-server": "^4.1.1"
+  }
+}
